@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="style/main.css" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="images/rsz_group_8425.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>First Assignment</title>
 </head>
 
 <body>
     <section class="top-banner flex-con">
         <div class="half-width">
             <h1>Welcome To</h1>
-            <h1><span class="orange-color">Prapty's Meal Plan</span> Recipe!</h1>
+            <h1><span class="orange-color"><span class="Bangla">Bangla</span> <span class="Thug">Khawa</span></span>
+                Recipe!</h1>
             <h3>Build Climber and Train Stopper</h3>
             <p>Ghas pata mati ami tomay valobashi.Ghas pata mati ami tomay valobashiGhas pata mati ami tomay
                 valobashiGhas
                 pata mati ami tomay valobashiGhas pata mati ami tomay valobashiGhas pata mati ami tomay valobashiGhas
                 pata
                 mati ami tomay valobashiGhas pata mati ami tomay valobashi</p>
-            <a class="link-button" href="#" target="_blank">HIRE ME</a>
+            <a class="link-button" href="#our-menu">SEE MENU</a>
         </div>
         <div class="half-width">
             <img src="images/female/Group 8425.png" alt="female">
@@ -34,44 +36,85 @@
             <img src="images/male/vyrevy.png" alt="">
         </div>
         <div class="half-width">
-            <h1>About Our Meal</h1>
+            <h1>About Our <span style="color:orangered;">Recipe</span></h1>
             <h3>There are packages based on days, weeks & months.</h3>
             <p>Ghas pata mati ami tomay valobashi.Ghas pata mati ami tomay valobashi.Ghas pata mati ami tomay
                 valobashi.Ghas pata mati ami tomay valobashi.Ghas pata mati ami tomay valobashi.</p>
-            <a class="link-button" href="#" target="_blank">Contact Us</a>
+            <a class="link-button" href="#input" target="">Order Now</a>
         </div>
     </section>
-    <section class="our-menu">
+    <section class="our-menu" id="our-menu">
         <h1 class="menu-h">OUR <span class="men">MENU</span></h1>
         <div class="flex-con">
             <div id="menu-item-b" class="menu-item">
-                <h1>Full Stack Developer</h1>
-                <h3 class="orange-color">2020-2021 | Pro Level Vai</h3>
-                <p>ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata
-                    mati.
+                <img src="images/beef.jpg" alt="">
+                <h3 class="orange-color">BEEF ITEMS</h3>
+                <p>
+                <ol>
+                    <li>Beef Lal Bhuna</li>
+                    <li>Beef Kalo Bhuna</li>
+                    <li>Nehari</li>
+                    <li>Gorur Mogoz Vorta</li>
+                </ol>
                 </p>
             </div>
             <div id="menu-item-b" class="menu-item">
-                <h1>Full Stack Developer</h1>
-                <h3 class="orange-color">2020-2024 | Pro Level Learner</h3>
-                <p>ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata
-                    mati.
+                <img src="images/roast.jpg" alt="">
+                <h3 class="orange-color">CHICKEN ITEMS</h3>
+                <p>
+                <ol>
+                    <li>Chicken Roast</li>
+                    <li>Spicy Chicken</li>
+                    <li>Garlic Chicken</li>
+                    <li>Masala Chicken</li>
+                </ol>
                 </p>
             </div>
             <div id="menu-item-b" class="menu-item">
-                <h1>Full Stack Developer</h1>
-                <h3 class="orange-color">2020-2024 | Pro Level Learner</h3>
-                <p>ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata
-                    mati.
+                <img src="images/khichuri.jpg" alt="">
+                <h3 class="orange-color">BENGAL SET MENU</h3>
+                <p>
+                <ol>
+                    <li>Beef/Chicken khichuri</li>
+                    <li>Hilsha Khichuri</li>
+                    <li>Hydrabadi Biriyani</li>
+                    <li>Kobutor Khichuri</li>
+                </ol>
                 </p>
             </div>
             <div id="menu-item-b" class="menu-item">
-                <h1>Full Stack Developer</h1>
-                <h3 class="orange-color">2020-2024 | Pro Level Learner</h3>
-                <p>ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata mati.ghas pata
-                    mati.
+                <img src="images/lassi.jpg" alt="">
+                <h3 class="orange-color">BENGAL DRINKS</h3>
+                <p>
+                <ol>
+                    <li>Lassi</li>
+                    <li>Borhani</li>
+                    <li>Laban</li>
+                    <li>Fruit Juice</li>
+                </ol>
                 </p>
             </div>
+        </div>
+    </section>
+    <section class="input" id="input">
+        <div>
+            <h1>Order Us Right Now!</h1>
+            <form action="#">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email address..">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" placeholder=" Your Phone Number..">
+
+                <label for="address">Address</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
 
