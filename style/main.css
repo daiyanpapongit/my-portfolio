@@ -76,7 +76,7 @@ h3{
 .our-menu{
     background-image: url(exp-bg.png), url(dream-bg.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: left, right;
+    background-position: left, bottom right;
     max-height: 400px;
     margin-bottom: 450px;
 }
@@ -115,7 +115,7 @@ footer p{
     width:50%;
     text-align:center;
     margin: 0 auto;
-    background-color:gainsboro;
+    background-image: url(bg.jpg);
     padding: 5%;
     margin-bottom: 150px;
     
@@ -128,13 +128,14 @@ footer p{
 .special p{
     text-align: justify;
     font-weight: bold;
+    color: orange;
+    font-size: 30px;
 }
 
 .input{
     width:50%;
     text-align:center;
     margin: 0 auto;
-    background-color:;
     padding: 5%;
     margin-bottom: 150px;
 }
