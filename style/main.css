@@ -11,7 +11,7 @@ h1{
     color: orange;
 }
 
-section{
+.flex-con{
     display: flex;
     margin-bottom: 150px;
     
@@ -38,7 +38,7 @@ section{
 }
 .dream-big{
 
-  padding: 3% 5%;  
+  padding: 4% 5%;  
   background-image: url(dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
@@ -47,5 +47,5 @@ section{
     
 }
 .dream-big img{
-    width:100%;
+    width:110%;
 }
