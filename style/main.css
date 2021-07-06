@@ -32,6 +32,7 @@ h3{
     background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 5px;
+
     color: whitesmoke;
     font-weight: bold;
   
@@ -62,6 +63,7 @@ h3{
     width: 25%;
     margin-left: 3%;
     padding: 15px;
+    border-radius: 5%;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
 }
@@ -75,11 +77,12 @@ h3{
     background-image: url(exp-bg.png), url(dream-bg.png);
     background-repeat: no-repeat, no-repeat;
     background-position: left, right;
-    max-height: 100%;
+    max-height: 400px;
+    margin-bottom: 450px;
 }
 .menu-item:hover{
     background-color: lightgray;
-    border-radius: 3%;
+    border-radius: 5%;
 }
 
 #menu-item-b{
@@ -178,6 +181,7 @@ input[type=text],input[type=email],input[type=tel], select, textarea {
   }
   .menu-item li:hover{
       background-color: whitesmoke;
+      cursor: pointer;
 
   }
   .menu-item h3{
