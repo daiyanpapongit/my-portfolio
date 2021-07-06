@@ -57,6 +57,7 @@ h3{
 }
 .dream-big img{
     width:110%;
+   
 }
 .menu-item{
     width: 20%;
@@ -87,4 +88,23 @@ h3{
     border-bottom:7px solid;
     border-image: linear-gradient(grey, black);
     border-image-slice: 1;
+}
+
+footer{
+    background: #131625;
+    padding: 2%;
+
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    color:white;
+
+
+}
+.Thug{
+    color: #FBA24F;
+}
+.Bangla{
+    color:orangered
 }
